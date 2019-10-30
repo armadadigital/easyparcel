@@ -193,7 +193,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                     $weight=0;
                     foreach ($items as $item) {
                    
-                            $weight += $items[$i]['weight'];
+                            $weight .= $items[$i]['weight'];
                             $i++;
                         
                     }
