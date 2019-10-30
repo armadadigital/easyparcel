@@ -215,7 +215,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
                         $shipping_rate = array(
                           'id'      =>  $rate->Service_ID,
-                          'label'   =>  "EasyParcel_".$courier_label,
+                          'label'   =>  $courier_label,
                           'cost'    =>  $rate->Price
                         );
 
